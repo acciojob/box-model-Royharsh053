@@ -1,1 +1,27 @@
 /*  your css code here. If applicable */
+.container{
+	  width: 80%; /* Adjust as needed */
+    margin: auto; /* Center the container */
+    padding: 20px;
+    border: 2px solid black; /* Add a border */
+    text-align: center; /* Center the content */
+}
+
+.red, .green, .yellow {
+    display: inline-block; /* Display blocks inline */
+    width: 100px; /* Set width */
+    height: 100px; /* Set height */
+    border-radius: 50%; /* Make them circular */
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
